@@ -3,7 +3,8 @@
 ## Integration
     In the app.php > providers
     Intervention\Image\ImageServiceProvider::class
-    <br>
+    
+    
     In the app.php > aliases
     'Image' => Intervention\Image\Facades\Image::class
 ## Publish configuration in Laravel
