@@ -1,10 +1,10 @@
 ## Installation
     composer require intervention/image
 ## Integration
-In the app.php > providers
+    In the app.php > providers
     Intervention\Image\ImageServiceProvider::class
-<br>
-In the app.php > aliases
+    <br>
+    In the app.php > aliases
     'Image' => Intervention\Image\Facades\Image::class
 ## Publish configuration in Laravel
     php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravelRecent"
